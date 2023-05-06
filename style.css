@@ -151,3 +151,53 @@ button{
     margin-top: -40px;
     margin-left: 500px;
 }
+
+
+.four{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner{
+width: 900px;
+height: 125px;
+background-color: #3882f6;
+border-radius: 5px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: #e5e7eb;
+}
+
+.bannercont{
+    margin-left: 75px;
+}
+
+
+.bannerright{
+    margin-right: 75px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+    min-height: 100px;
+    color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    margin-top: 2px;
+    font-size: 13px;
+}
+
+strong{
+    font-weight: bold;
+    font-size: 20px;
+}
