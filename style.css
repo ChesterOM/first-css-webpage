@@ -124,3 +124,30 @@ button{
     font-size: 14px;
     color: #888b91;
 }
+
+
+.three{
+    background-color: #e5e7eb;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+}
+
+
+.inspo{
+    font-size: 36px;
+    max-width: 820px;
+}
+
+
+.thor{
+    max-width: 820px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: end;
+    margin-top: -40px;
+    margin-left: 500px;
+}
