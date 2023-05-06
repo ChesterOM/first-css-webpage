@@ -13,8 +13,17 @@ body{
 }
 .one{
     display: flex;
-    height: 400px;
+    min-height: 400px;
     color: #f9faf8;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oneleft{
+    width: 500px;
+    min-height: 250px;
+    padding-right: 200px;
 }
 
 header{
@@ -25,7 +34,6 @@ header{
 .head{
     display: flex;
     align-items: center;
-    padding-bottom: 50px;
     justify-content: space-between;
 }
 
@@ -48,7 +56,16 @@ a{
 
 
 .emu{
-    width: 600px;
-    height: 300px;
-    padding-left: 400px;
+    width: 500px;
+    height: 250px;
+   }
+
+button{
+    background-color: #3882f6;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    border: 0px;
+    font-weight: bold;
 }
